@@ -15,7 +15,22 @@
             <li><a href="#projects">Төслүүд</a></li>
             <li><a href="#contact">Холбоо барих</a></li>
         </ul>
+        <button id="toggle-dark-mode">Dark button</button>
     </nav>
+
+<section id="login-section">
+    <h2>Админ нэвтрэх</h2>
+    <input type="password" id="admin-password" placeholder="Нууц үг"/>
+    <button id="login-button">Нэвтрэх</button>
+    <p id="login-error" style="color: red;"></p>
+</section>
+
+<section id="admin-panel">
+    <h2>Админ самбар</h2>
+    <button id="enable-edit-mode">Засах горим</button>
+    <button id="save-all">Хадгалах</button>
+</section>
+
 
     <section id="hero">
         <div class="hero-content">
@@ -30,7 +45,7 @@
         <h2>Миний тухай</h2>
         <div class="about-content">
         <img src="https://picsum.photos/200/200" alt="profile-pic" class="profile-pic">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae non deleniti dignissimos expedita tempore.</p>
+        <p id="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quae non deleniti dignissimos expedita tempore.</p>
     </div>
     </section>
 
@@ -61,17 +76,17 @@
             <div class="project-grid">
                 <img src="https://picsum.photos/300/200?random=1" alt="project-1">
                 <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p id="project-1">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="project-grid">
                 <img src="https://picsum.photos/300/200?random=2" alt="project-2">
                 <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p id="project-2">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="project-grid">
                 <img src="https://picsum.photos/300/200?random=3" alt="project-3">
                 <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p id="project-3">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
     </section>
@@ -90,5 +105,6 @@
     <footer>
         <p>2025 миний танилцуулга. Бүх эрх хуулиар хамгаалагдсан</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
